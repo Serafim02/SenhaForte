@@ -1,0 +1,174 @@
+@font-face {
+    font-family: "berserker";
+    src: url(fonts/OptimusPrinceps.ttf);
+}
+@font-face {
+    font-family: "berserker1";
+    src: url(fonts/OptimusPrincepsSemiBold.ttf);
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+   
+    font-size: 16px;
+    line-height: 1.5;
+
+
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+   
+
+}
+
+header img {
+    width: 50px;
+
+}
+
+header .titulo {
+    font-family: 'berserker', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+main {
+    background-image: url(imgs/midir.jpg);
+    font-family: "berserker1";
+    background-size: cover;
+    /* Cobrir todo o elemento */
+    background-repeat: repeat;
+}
+
+#entradaSenha {
+    margin: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#medidorPoder {
+    margin-top: 10px;
+    height: 20px;
+    width: 0;
+    background-color: gray;
+    transition: width 0.3s, background-color 0.3s;
+}
+
+#requisitos {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.requisito {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.vermelho {
+    color: red;
+    transition: color 0.3s;
+}
+
+.verde {
+    color: green;
+    transition: color 0.3s;
+}
+
+#textoPoder {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+
+#mostrarSenha {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #3cff00;
+    font-size: 15px;
+    border-bottom: 1px solid ;
+    font-weight: 600;
+    background-color: black;
+}
+
+.um {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+#requisitos {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+
+}
+.requisito{
+    font-size: 18px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding:  0px 5px;
+}
+#medidorPoder{
+  width: 70%;
+    
+}
+.imgs #textoPoder{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+main{
+   padding-top: 100px;
+   color: rgb(72, 255, 0);
+}
+.imgs{
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+input{
+    border-radius: 10px;
+}
